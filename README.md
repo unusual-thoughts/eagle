@@ -1,0 +1,4 @@
+eagle
+=====
+
+EAGLE root folder
