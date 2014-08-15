@@ -1850,7 +1850,7 @@ design rules under a new name.</description>
 <element name="U$28" library="SparkFun-Boards" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="100.33" y="45.466" rot="R270"/>
 <element name="Q1" library="transistors" package="TO-92" value="" x="102.235" y="77.851" rot="R90"/>
 <element name="R2" library="resistor" package="M0805" value="10K" x="101.092" y="74.295" rot="MR0"/>
-<element name="R3" library="resistor" package="R0805" value="10K" x="97.282" y="75.946" rot="MR270"/>
+<element name="R3" library="resistor" package="R0805" value="10K" x="98.425" y="75.946" rot="MR270"/>
 <element name="IC1" library="jt-texas" package="TQFP32-08" value="TUSB2046VF" x="78.74" y="69.596" rot="MR270"/>
 <element name="Q2" library="crystal" package="HC49/S" value="6MHZ" x="70.739" y="69.342" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="70.739" y="69.342" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1924,9 +1924,8 @@ design rules under a new name.</description>
 <contactref element="U$28" pad="1"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="R3" pad="1"/>
-<wire x1="97.028" y1="76.835" x2="97.282" y2="77.089" width="0.3556" layer="16"/>
-<wire x1="97.282" y1="77.089" x2="99.441" y2="79.248" width="0.3556" layer="16"/>
-<wire x1="99.441" y1="79.248" x2="102.108" y2="79.248" width="0.3556" layer="16"/>
+<wire x1="97.917" y1="77.089" x2="100.076" y2="79.248" width="0.3556" layer="16"/>
+<wire x1="100.076" y1="79.248" x2="102.108" y2="79.248" width="0.3556" layer="16"/>
 <wire x1="102.108" y1="79.248" x2="102.235" y2="79.121" width="0.3556" layer="16"/>
 <wire x1="102.235" y1="79.121" x2="122.809" y2="79.121" width="0.3556" layer="16"/>
 <wire x1="122.809" y1="79.121" x2="127.889" y2="73.914" width="0.3556" layer="16"/>
@@ -1934,7 +1933,7 @@ design rules under a new name.</description>
 <wire x1="127.889" y1="57.023" x2="123.825" y2="52.959" width="0.3556" layer="16"/>
 <wire x1="123.825" y1="52.959" x2="113.157" y2="52.959" width="0.3556" layer="16"/>
 <wire x1="113.157" y1="52.959" x2="113.03" y2="53.086" width="0.3556" layer="16"/>
-<wire x1="97.282" y1="76.796" x2="97.282" y2="77.089" width="0.4064" layer="16"/>
+<wire x1="98.425" y1="76.796" x2="97.917" y2="77.089" width="0.4064" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="P1"/>
@@ -2014,11 +2013,11 @@ design rules under a new name.</description>
 <wire x1="73.914" y1="34.671" x2="73.914" y2="47.121" width="0.3556" layer="16"/>
 <wire x1="76.151" y1="49.358" x2="73.914" y2="47.121" width="0.3556" layer="16"/>
 <contactref element="R3" pad="2"/>
-<wire x1="96.735" y1="75.057" x2="97.199971875" y2="74.593678125" width="0.3556" layer="16"/>
-<wire x1="97.199971875" y1="74.593678125" x2="98.425" y2="73.373" width="0.3556" layer="16"/>
-<wire x1="98.425" y1="73.373" x2="100.218" y2="71.58" width="0.3556" layer="16"/>
-<wire x1="97.282" y1="75.096" x2="97.199971875" y2="75.096" width="0.4064" layer="16"/>
-<wire x1="97.199971875" y1="75.096" x2="97.199971875" y2="74.593678125" width="0.4064" layer="16"/>
+<wire x1="98.386" y1="73.533" x2="98.342971875" y2="73.577678125" width="0.3556" layer="16"/>
+<wire x1="98.342971875" y1="73.577678125" x2="98.425" y2="73.5" width="0.3556" layer="16"/>
+<wire x1="98.425" y1="73.5" x2="100.218" y2="71.58" width="0.3556" layer="16"/>
+<wire x1="98.425" y1="75.096" x2="98.342971875" y2="74.969" width="0.4064" layer="16"/>
+<wire x1="98.342971875" y1="74.969" x2="98.342971875" y2="73.577678125" width="0.4064" layer="16"/>
 </signal>
 <signal name="IPODR">
 <contactref element="U$5" pad="P$4"/>
