@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7496,7 +7496,6 @@ type 0309, grid 2.5 mm</description>
 <part name="U$1" library="mylib" deviceset="GTM2088ARGB" device=""/>
 <part name="U$6" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$13" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$12" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$14" library="TLC5947" deviceset="TLC5947" device="DAP"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805"/>
@@ -7511,6 +7510,7 @@ type 0309, grid 2.5 mm</description>
 <part name="R2" library="resistor" deviceset="R-US_" device="M1206" value="0R"/>
 <part name="U$11" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$15" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$16" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7522,7 +7522,6 @@ type 0309, grid 2.5 mm</description>
 <instance part="U$8" gate="G$1" x="-10.16" y="137.16" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-9.144" y="135.89" size="1.27" layer="96"/>
 </instance>
-<instance part="U$13" gate="G$1" x="-48.26" y="142.24" rot="R90"/>
 <instance part="U$12" gate="G$1" x="-48.26" y="144.78" rot="R270"/>
 <instance part="U$14" gate="G$1" x="10.16" y="157.48"/>
 <instance part="R1" gate="G$1" x="-12.7" y="142.24"/>
@@ -7539,6 +7538,7 @@ type 0309, grid 2.5 mm</description>
 <instance part="R2" gate="G$1" x="-7.62" y="111.76"/>
 <instance part="U$11" gate="G$1" x="0" y="111.76" rot="R90"/>
 <instance part="U$15" gate="G$1" x="-15.24" y="111.76" rot="R270"/>
+<instance part="U$16" gate="G$1" x="-48.26" y="139.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7569,16 +7569,16 @@ type 0309, grid 2.5 mm</description>
 <junction x="-20.32" y="55.88"/>
 </segment>
 <segment>
-<pinref part="U$13" gate="G$1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="5"/>
-</segment>
-<segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U$11" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="U$15" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="4"/>
+<pinref part="U$16" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
@@ -7635,11 +7635,11 @@ type 0309, grid 2.5 mm</description>
 </net>
 <net name="N$25" class="0">
 <segment>
-<wire x1="-50.8" y1="139.7" x2="-25.4" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="XLAT"/>
-<wire x1="-25.4" y1="139.7" x2="-25.4" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="142.24" x2="-25.4" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="144.78" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
+<pinref part="JP2" gate="G$1" pin="5"/>
+<wire x1="-50.8" y1="142.24" x2="-25.4" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
