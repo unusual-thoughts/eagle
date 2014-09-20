@@ -3387,13 +3387,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CD74HC238">
+<deviceset name="74HC138">
 <description>M74HC238 - CMOS 3 TO 8 LINE DECODER</description>
 <gates>
 <gate name="G$1" symbol="M74HC238" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="E" package="DIL16">
+<device name="N" package="DIL16">
 <connects>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="2"/>
@@ -3416,7 +3416,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="M" package="SO-16">
+<device name="D" package="SO-16">
 <connects>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="2"/>
@@ -7587,7 +7587,7 @@ type 0309, grid 2.5 mm</description>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="3.3k"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
-<part name="U$9" library="mylib" deviceset="CD74HC238" device="M"/>
+<part name="U$9" library="mylib" deviceset="74HC138" device="D"/>
 <part name="U$7" library="microbuilder" deviceset="5.0V" device=""/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>

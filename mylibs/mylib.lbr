@@ -3661,6 +3661,60 @@ Philips Semiconductors, SOT363.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="74HC138">
+<description>M74HC238 - CMOS 3 TO 8 LINE DECODER</description>
+<gates>
+<gate name="G$1" symbol="M74HC238" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="N" package="DIL16">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="E1" pad="4"/>
+<connect gate="G$1" pin="E2" pad="5"/>
+<connect gate="G$1" pin="E3" pad="6"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="Y0" pad="15"/>
+<connect gate="G$1" pin="Y1" pad="14"/>
+<connect gate="G$1" pin="Y2" pad="13"/>
+<connect gate="G$1" pin="Y3" pad="12"/>
+<connect gate="G$1" pin="Y4" pad="11"/>
+<connect gate="G$1" pin="Y5" pad="10"/>
+<connect gate="G$1" pin="Y6" pad="9"/>
+<connect gate="G$1" pin="Y7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="SO-16">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="E1" pad="4"/>
+<connect gate="G$1" pin="E2" pad="5"/>
+<connect gate="G$1" pin="E3" pad="6"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="Y0" pad="15"/>
+<connect gate="G$1" pin="Y1" pad="14"/>
+<connect gate="G$1" pin="Y2" pad="13"/>
+<connect gate="G$1" pin="Y3" pad="12"/>
+<connect gate="G$1" pin="Y4" pad="11"/>
+<connect gate="G$1" pin="Y5" pad="10"/>
+<connect gate="G$1" pin="Y6" pad="9"/>
+<connect gate="G$1" pin="Y7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
