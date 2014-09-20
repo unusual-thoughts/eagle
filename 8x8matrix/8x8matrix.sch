@@ -8462,6 +8462,8 @@ thin small outline package</description>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="IC1" library="SparkFun-DigitalIC" deviceset="74*595" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$4" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$5" library="microbuilder" deviceset="5.0V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8483,6 +8485,8 @@ thin small outline package</description>
 </instance>
 <instance part="IC1" gate="A" x="-10.16" y="60.96"/>
 <instance part="U$3" gate="G$1" x="-10.16" y="160.02" rot="R270"/>
+<instance part="U$4" gate="G$1" x="-20.32" y="45.72"/>
+<instance part="U$5" gate="G$1" x="5.08" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -8504,6 +8508,10 @@ thin small outline package</description>
 <pinref part="U$14" gate="G$1" pin="PAD"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="A" pin="GND"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+</segment>
 </net>
 <net name="5.0V" class="0">
 <segment>
@@ -8513,6 +8521,10 @@ thin small outline package</description>
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <pinref part="U$12" gate="G$1" pin="5.0V"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="VCC"/>
+<pinref part="U$5" gate="G$1" pin="5.0V"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8812,9 +8824,9 @@ thin small outline package</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="QH*"/>
-<wire x1="5.08" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="48.26" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="QA"/>
+<wire x1="5.08" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="68.58" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="R1"/>
 <wire x1="10.16" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
 </segment>
