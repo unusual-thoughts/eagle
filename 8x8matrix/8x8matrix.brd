@@ -26,12 +26,12 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -139,10 +139,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="60.432" y2="0" width="0.381" layer="20"/>
-<wire x1="60.432" y1="0" x2="60.432" y2="60.5" width="0.381" layer="20"/>
-<wire x1="60.432" y1="60.5" x2="0" y2="60.5" width="0.381" layer="20"/>
-<wire x1="0" y1="60.5" x2="0" y2="0" width="0.381" layer="20"/>
+<wire x1="0" y1="0" x2="60.432" y2="0" width="0" layer="20"/>
+<wire x1="60.432" y1="0" x2="60.432" y2="60.5" width="0" layer="20"/>
+<wire x1="60.432" y1="60.5" x2="0" y2="60.5" width="0" layer="20"/>
+<wire x1="0" y1="60.5" x2="0" y2="0" width="0" layer="20"/>
 <text x="20.828" y="38.481" size="1.4224" layer="16" font="vector" ratio="11" rot="MR270">unusual_thoughts</text>
 <text x="18.288" y="24.13" size="1.4224" layer="16" font="vector" ratio="11" rot="MR270">2014</text>
 <text x="15.748" y="27.94" size="1.4224" layer="16" font="vector" ratio="11" rot="MR270">8x8 RGB</text>
