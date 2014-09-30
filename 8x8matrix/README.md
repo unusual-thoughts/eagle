@@ -22,7 +22,7 @@ Pin number	| Label	| Description
 To get everything to fit on a single sided board, I had to make weird column and row assignments:  
 
 A0	| A1	| A2	| Row Number
---	| --	| --	| ---
+--	| --	| --	| ----------
 0	| 0		| 0		| 2
 0	| 0		| 1		| 1
 0	| 1		| 0		| 0
