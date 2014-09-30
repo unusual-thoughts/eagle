@@ -21,4 +21,21 @@ Pin number	| Label	| Description
 
 To get everything to fit on a single sided board, I had to make weird column and row assignments:  
 
-A0 | A1 | A2 | Row
+A0	| A1	| A2	| Row Number
+--	| --	| --	| ---
+0	| 0		| 0		| 2
+0	| 0		| 1		| 1
+0	| 1		| 0		| 0
+0	| 1		| 1		| 7
+1	| 0		| 0		| 4
+1	| 0		| 1		| 5
+1	| 1		| 0		| 6
+1	| 1		| 1		| 3
+
+TLC channel	| columns
+----------  | ------
+0-7			| Red 0-7
+8-15		| Blue 0-7
+16-23		| Green 7-0 (inverted order)
+
+There is a modified version of the Tlc5940 library by Alex Leone, named Tlc5947 in my arduino folder. Like its counterpart, it can use arduino hardware spi to speed things up to an acceptable refresh rate. The basic bitbang code flickers quite a bit, even with direct port manipulation.
