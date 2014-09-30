@@ -38,4 +38,6 @@ TLC channel	| Columns
 8-15		| Blue 0-7
 16-23		| Green 7-0 (inverted order)
 
-There is a modified version of the Tlc5940 library by Alex Leone, named Tlc5947 in my arduino folder. Like its counterpart, it can use arduino hardware spi to speed things up to an acceptable refresh rate. The basic bitbang code flickers quite a bit, even with direct port manipulation.
+There is a modified version of the Tlc5940 library by Alex Leone, named Tlc5947 in my arduino folder. Like its counterpart, it can use arduino hardware spi to speed things up to an acceptable refresh rate. The basic bitbang code flickers quite a bit, even with direct port manipulation.  
+
+![layers](prints/layers.gif)
