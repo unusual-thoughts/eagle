@@ -19,7 +19,7 @@ Pin number	| Label	| Description
 8			| VCC	| +5V
 9			| XLAT	| TLC latch data
 
-To get everything to fit on a single sided board, I had to make weird column and row assignments:  
+To get everything to fit on a single sided board, I had to make weird column and row assignments:
 
 A0	| A1	| A2	| Row Number
 --	| --	| --	| ----------
