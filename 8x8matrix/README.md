@@ -25,6 +25,9 @@ To get everything to fit on a single sided board, I had to make weird column and
 | -- | -- | -- | ---------- |
 | 0  | 0  | 0  | 2          |
 
+e | f | g | h
+- | - | - | -
+test| test| test | test
 
 0	| 0		| 1		| 1
 0	| 1		| 0		| 0
