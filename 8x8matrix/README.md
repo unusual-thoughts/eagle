@@ -1,10 +1,10 @@
 Backpack for 8x8 RGB LED matrix
 ==============================
 
-This is a simple breakout board for 8x8 RGB matrices like the [GTM2088ARGB](http://www.ebay.com/itm/5mm-8x8-Matrix-RGB-LED-Common-Anode-Full-Colour-60-60mm-/370699782315)
+This is a simple breakout board for 8x8 RGB matrices like the [GTM2088ARGB](http://www.ebay.com/itm/5mm-8x8-Matrix-RGB-LED-Common-Anode-Full-Colour-60-60mm-/370699782315)  
 It uses TLC5947 that provides 24 12 bit current sink PWM channels, and a 74HC138 3 to 8 line decoder followed by P-channel MOSFETs to drive the rows.
-The parts are in the ../mylibs/mylib.lbr library.
-The whole thing fits on a single layer PCB.
+The parts are in the ../mylibs/mylib.lbr library.  
+The whole thing fits on a single layer PCB.  
 The matrix is controlled through the 9-pin header with this pinout:
 
 Pin number	| Label	| Description
@@ -19,5 +19,6 @@ Pin number	| Label	| Description
 8			| VCC	| +5V
 9			| XLAT	| TLC latch data
 
-To get everything to fit on a single sided board, I had to make weird column and row assignments:
+To get everything to fit on a single sided board, I had to make weird column and row assignments:  
 
+A0 | A1 | A2 | Row
