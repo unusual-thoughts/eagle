@@ -210,7 +210,7 @@
 <circle x="11.43" y="-26.67" radius="2" width="0.127" layer="21"/>
 <circle x="19.05" y="-26.67" radius="2" width="0.127" layer="21"/>
 <circle x="26.67" y="-26.67" radius="2" width="0.127" layer="21"/>
-<pad name="P1" x="-19.05" y="-22.86" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="P1" x="-19.05" y="-22.86" drill="1.016" diameter="1.8796" shape="octagon"/>
 <pad name="P2" x="-16.51" y="-22.86" drill="1.016" diameter="1.8796"/>
 <pad name="P3" x="-13.97" y="-22.86" drill="1.016" diameter="1.8796"/>
 <pad name="P4" x="-11.43" y="-22.86" drill="1" diameter="1.8796"/>
@@ -344,6 +344,7 @@
 <rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<circle x="-2.032" y="-1.016" radius="0.254" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8069,7 +8070,7 @@ type 0309, grid 2.5 mm</description>
 <junction x="12.7" y="91.44"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="A0" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="A0"/>
 <wire x1="-40.64" y1="66.04" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
@@ -8078,7 +8079,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-55.88" y1="129.54" x2="-43.18" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="A1" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="A1"/>
 <wire x1="-40.64" y1="63.5" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
@@ -8087,7 +8088,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="-55.88" y1="127" x2="-45.72" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="A2" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="A2"/>
 <wire x1="-48.26" y1="124.46" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
