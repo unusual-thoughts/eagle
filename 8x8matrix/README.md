@@ -29,6 +29,11 @@ e | f | g | h
 - | - | - | -
 test| test| test | test
 
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
+
 0	| 0		| 1		| 1
 0	| 1		| 0		| 0
 0	| 1		| 1		| 7
